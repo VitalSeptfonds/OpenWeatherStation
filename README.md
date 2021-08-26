@@ -6,6 +6,7 @@ This weather station will give access to real time data through an Web API.
 
 ### Main Functionality 
 - POE : Power Over Ethernet
+- 3D printable 
 - Ingress Protection : IP33
   - Protected from tools and wires greater than 2.5 millimeters
   - Protected from water spray less than 60 degrees from vertical
