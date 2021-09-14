@@ -62,3 +62,6 @@ Use three simple, common response codes :
 * 404 - Not Found
 * 500 - Internal Server Error
 
+## Links
+* [Hardware](hardware/readme.md)
+* [Software](software/readme.md)
