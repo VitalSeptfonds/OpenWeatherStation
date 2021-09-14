@@ -62,3 +62,8 @@ Use three simple, common response codes :
 * 404 - Not Found
 * 500 - Internal Server Error
 
+## Docs
+
+### Hardware
+
+### Software
