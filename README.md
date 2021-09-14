@@ -64,6 +64,6 @@ Use three simple, common response codes :
 
 ## Docs
 
-### [Hardware] (docs/hardware.md)
+[Hardware] (docs/hardware.md)
 
 ### Software
