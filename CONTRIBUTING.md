@@ -4,9 +4,9 @@ I'm really glad you're reading this, because we need volunteer developers to hel
 
 Here are some important resources:
 
-  * [STM32 Cube IDE](https://www.st.com/en/development-tools/stm32cubeide.html) for software development
+  * [STM32 Cube IDE](https://www.st.com/en/development-tools/stm32cubeide.html) for Software Development
   * [KiCad](https://www.kicad.org/) for Electronic Design
-  * Catia v5 r19 for CAD Design and Mechanical integration
+  * Catia v5 r19 for CAD Design and Mechanical Integration
   
  
 ## Submitting changes
