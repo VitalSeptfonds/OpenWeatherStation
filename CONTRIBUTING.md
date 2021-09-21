@@ -1,4 +1,4 @@
-# Contributing to OpenWheatherStation
+# Contributing to OpenWeatherStation
 
 I'm really glad you're reading this, because we need volunteer developers to help this project come to fruition.
 
@@ -11,7 +11,7 @@ Here are some important resources:
  
 ## Submitting changes
 
-Please send a [GitHub Pull Request to OpenWheatherStation](https://github.com/VitalSeptfonds/OpenWheatherStation/pull/new/master) with a clear list of what you've done. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit).
+Please send a [GitHub Pull Request to OpenWeatherStation](https://github.com/VitalSeptfonds/OpenWeatherStation/pull/new/master) with a clear list of what you've done. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit).
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
 
