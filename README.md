@@ -1,7 +1,9 @@
-# OpenWheatherStation
+# OpenWeatherStation
+
+![Test Image](hardware/Casing/CAD%20-%20Catia%20v5/rendu1.jpg)
 
 ## The Project
-The main goal is to create an Open Wheather Station based on STM32.
+The main goal is to create an Open Weather Station based on STM32.
 This weather station will give access to real time data through an Web API.
 
 ### Main Functionality 
