@@ -360,6 +360,12 @@
     (uuid f9704185-3085-4052-9cb3-7eb8b5a79b14)
   )
 
+  (no_connect (at 73.66 110.49) (uuid 5cc9b397-e8d1-4152-b96d-62ca9aaa467c))
+  (no_connect (at 76.2 110.49) (uuid 63ecac1e-317a-40c9-9ef7-53bc5c3687ce))
+  (no_connect (at 71.12 110.49) (uuid 853a3007-6993-4549-9ea1-cbb992432981))
+  (no_connect (at 83.82 115.57) (uuid 8ee2589e-c105-4cd6-9ef1-959226017f1c))
+  (no_connect (at 83.82 123.19) (uuid c7aabac0-c33a-4c28-9cad-f3fbe7fc590a))
+
   (bus_entry (at 106.68 120.65) (size 2.54 2.54)
     (stroke (width 0) (type default))
     (uuid 0293e180-6654-4d49-8e6a-e6d704f6d7c8)
