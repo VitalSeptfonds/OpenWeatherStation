@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Wheather Station")
+    (date "2024-01-02")
+    (rev "1.0")
+    (company "Vital Septfonds")
+  )
+
   (lib_symbols
     (symbol "MCU_ST_STM32F1:STM32F107VCTx" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -17.78 67.31 0)

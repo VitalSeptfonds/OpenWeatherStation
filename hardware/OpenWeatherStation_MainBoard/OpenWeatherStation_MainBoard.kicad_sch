@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Open Wheather Station")
+    (date "2024-01-02")
+    (rev "1.0")
+    (company "Vital Septfonds")
+  )
+
   (lib_symbols
   )
 
