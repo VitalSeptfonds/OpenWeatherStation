@@ -1231,7 +1231,7 @@
   (symbol (lib_id "power:GND") (at 121.92 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bfa76a5-25dc-4790-a15b-1c48953be525)
-    (property "Reference" "#PWR06" (at 121.92 180.34 0)
+    (property "Reference" "#PWR017" (at 121.92 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 177.935 0)
@@ -1246,9 +1246,6 @@
     (pin "1" (uuid 04fe3f02-5b99-4e66-8ba4-4410fc60304c))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/e119c7c9-ed94-415e-ac5e-a04b52e23914"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/ecef3463-8a76-4601-aba2-c0b4af8f7f37"
           (reference "#PWR017") (unit 1)
         )
@@ -1259,7 +1256,7 @@
   (symbol (lib_id "power:+3V3") (at 121.92 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67dd364e-80c7-451f-8633-5773988aee09)
-    (property "Reference" "#PWR04" (at 121.92 25.4 0)
+    (property "Reference" "#PWR08" (at 121.92 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 121.92 17.645 0)
@@ -1274,9 +1271,6 @@
     (pin "1" (uuid 5f478d7d-59fa-49ef-9d37-0a14e30c6fcc))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/e119c7c9-ed94-415e-ac5e-a04b52e23914"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/ecef3463-8a76-4601-aba2-c0b4af8f7f37"
           (reference "#PWR08") (unit 1)
         )

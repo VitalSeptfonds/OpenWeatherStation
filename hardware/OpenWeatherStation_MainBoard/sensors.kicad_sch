@@ -762,7 +762,7 @@
   (symbol (lib_id "Device:C") (at 59.69 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0bc9043-fb4c-4589-9acb-4b4dd7657532)
-    (property "Reference" "C1" (at 62.611 62.476 0)
+    (property "Reference" "C21" (at 62.611 62.476 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 62.611 64.524 0)
@@ -778,9 +778,6 @@
     (pin "2" (uuid 35dfcecf-5af1-4d43-a2ab-4aad6eb65adf))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "C1") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/e119c7c9-ed94-415e-ac5e-a04b52e23914"
           (reference "C21") (unit 1)
         )
@@ -791,7 +788,7 @@
   (symbol (lib_id "Device:C") (at 46.99 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68e3c17-b785-44f7-ba37-d57164ffe346)
-    (property "Reference" "C1" (at 49.911 132.326 0)
+    (property "Reference" "C22" (at 49.911 132.326 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 49.911 134.374 0)
@@ -807,9 +804,6 @@
     (pin "2" (uuid ad1beeac-f23d-4aae-8db5-98570ee6e7b0))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "C1") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/e119c7c9-ed94-415e-ac5e-a04b52e23914"
           (reference "C22") (unit 1)
         )

@@ -726,97 +726,6 @@
         )
       )
     )
-    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GNDPWR" (at 0 -3.302 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDPWR\" , global ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GNDPWR_0_1"
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 -1.27)
-            (xy -1.27 -2.032)
-            (xy -1.27 -2.032)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.508 -1.27)
-            (xy -0.762 -2.032)
-            (xy -0.762 -2.032)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy -0.254 -2.032)
-            (xy -0.254 -2.032)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 -1.27)
-            (xy 0.254 -2.032)
-            (xy 0.254 -2.032)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -1.27)
-            (xy -1.016 -1.27)
-            (xy -1.016 -1.27)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -1.27)
-            (xy 0.762 -2.032)
-            (xy 0.762 -2.032)
-            (xy 0.762 -2.032)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GNDPWR_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDPWR" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 121.92 41.91) (diameter 0) (color 0 0 0 0)
@@ -1141,7 +1050,7 @@
     (stroke (width 0) (type default))
     (uuid bafbbc91-6930-4c1b-9418-1732201a7e23)
   )
-  (wire (pts (xy 74.93 105.41) (xy 74.93 104.14))
+  (wire (pts (xy 74.93 109.22) (xy 74.93 104.14))
     (stroke (width 0) (type default))
     (uuid bef00e79-ed2c-4f71-a872-84fb2dc3663c)
   )
@@ -1156,10 +1065,6 @@
   (wire (pts (xy 107.95 46.99) (xy 106.68 46.99))
     (stroke (width 0) (type default))
     (uuid e76f1c76-7d0d-4873-b543-62827571dcaa)
-  )
-  (wire (pts (xy 74.93 105.41) (xy 69.85 105.41))
-    (stroke (width 0) (type default))
-    (uuid ecce3f01-8764-4d7a-a005-8b62be2ea61b)
   )
   (wire (pts (xy 123.19 41.91) (xy 121.92 41.91))
     (stroke (width 0) (type default))
@@ -1370,7 +1275,7 @@
   (symbol (lib_id "Device:R") (at 49.53 93.98 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 161d65f1-93f3-4838-a36c-f0791a12b3d1)
-    (property "Reference" "R28" (at 50.8 91.44 0)
+    (property "Reference" "R36" (at 50.8 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "270" (at 48.26 91.44 0)
@@ -1386,11 +1291,33 @@
     (pin "2" (uuid f7be212f-e70b-46a2-b963-f006349e52a1))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "R28") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "R36") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 74.93 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 164aaf0d-65df-4087-8579-28dba711b6aa)
+    (property "Reference" "#PWR036" (at 74.93 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 74.93 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 74.93 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 74.93 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4a62bd9a-e3bc-4048-ac68-196bcc7982cc))
+    (instances
+      (project "OpenWeatherStation_MainBoard"
+        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1399,7 +1326,7 @@
   (symbol (lib_id "Device:R") (at 49.53 78.74 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 242c9b1e-5e02-441f-8d34-cbcc5dd52adb)
-    (property "Reference" "R29" (at 50.8 76.2 0)
+    (property "Reference" "R35" (at 50.8 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "270" (at 48.26 76.2 0)
@@ -1415,9 +1342,6 @@
     (pin "2" (uuid cfa6d981-002a-432f-80e6-8603e575a51f))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "R29") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "R35") (unit 1)
         )
@@ -1428,7 +1352,7 @@
   (symbol (lib_id "power:GND") (at 45.72 78.74 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 346904f3-874b-4705-b48d-e4a7209e1224)
-    (property "Reference" "#PWR024" (at 39.37 78.74 0)
+    (property "Reference" "#PWR033" (at 39.37 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 78.74 0)
@@ -1443,9 +1367,6 @@
     (pin "1" (uuid 546dc1f1-11a8-4740-8ee9-7ff83bdff87c))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "#PWR033") (unit 1)
         )
@@ -1494,7 +1415,7 @@
   (symbol (lib_id "power:GND") (at 54.61 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93329012-4189-4efa-979f-3d66fb3d0575)
-    (property "Reference" "#PWR025" (at 54.61 115.57 0)
+    (property "Reference" "#PWR035" (at 54.61 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 114.3 0)
@@ -1509,9 +1430,6 @@
     (pin "1" (uuid e12a3ea3-a285-4249-b8c6-6c6c4ca97c59))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "#PWR035") (unit 1)
         )
@@ -1547,7 +1465,7 @@
   (symbol (lib_id "Device:R") (at 54.61 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a746309f-4fbc-4c84-a344-26c23d0cd59c)
-    (property "Reference" "R30" (at 57.15 104.14 0)
+    (property "Reference" "R37" (at 57.15 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 57.15 106.68 0)
@@ -1563,39 +1481,8 @@
     (pin "2" (uuid a04f0a8c-5248-46ec-a22c-d27257e53d87))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "R30") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "R37") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDPWR") (at 69.85 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid aa7950a8-4d89-46dc-b9c6-0653eb038c26)
-    (property "Reference" "#PWR01" (at 69.85 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDPWR" (at 69.723 108.9486 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 69.85 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 69.85 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8e6c134-1a1a-4991-a877-552db8ffc6f9))
-    (instances
-      (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
-          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1655,7 +1542,7 @@
   (symbol (lib_id "Connector:RJ45_LED_Shielded") (at 74.93 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68283b8-4656-4f32-a569-be8489697bb8)
-    (property "Reference" "J1" (at 74.93 75.16 0)
+    (property "Reference" "J3" (at 74.93 75.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45_LED_Shielded" (at 74.93 77.208 0)
@@ -1682,9 +1569,6 @@
     (pin "SH" (uuid 9c23dcba-6944-43cd-b390-7961604d9046))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "J1") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "J3") (unit 1)
         )
@@ -1720,7 +1604,7 @@
   (symbol (lib_id "power:GND") (at 45.72 93.98 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f79b23e6-b156-4852-8aaf-713789d1e16a)
-    (property "Reference" "#PWR023" (at 39.37 93.98 0)
+    (property "Reference" "#PWR034" (at 39.37 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 93.98 0)
@@ -1735,9 +1619,6 @@
     (pin "1" (uuid 813f7db1-89d8-4bb0-a5ef-33365ea99e3e))
     (instances
       (project "OpenWeatherStation_MainBoard"
-        (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/7c03bbc1-3816-4af6-9da6-b1bc735a9c60"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/698c4dde-56a2-4dd1-89d2-180a09a5dfe9/353c80a6-1831-46d1-b79a-6f2062aa4dd2"
           (reference "#PWR034") (unit 1)
         )
