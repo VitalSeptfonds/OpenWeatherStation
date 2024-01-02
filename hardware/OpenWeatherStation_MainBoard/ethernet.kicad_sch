@@ -2604,7 +2604,7 @@
     (property "Value" "FerriteBead" (at 260.35 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 250.952 31.75 90)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 250.952 31.75 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 31.75 0)
