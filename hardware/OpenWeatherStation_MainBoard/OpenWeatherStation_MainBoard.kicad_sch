@@ -185,7 +185,7 @@
     (property "Sheetname" "PoE" (at 95.25 29.7684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "untitled.kicad_sch" (at 95.25 56.4646 0)
+    (property "Sheetfile" "poe.kicad_sch" (at 95.25 56.4646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "ETH_PORT[1..8]" bidirectional (at 95.25 35.56 180)
